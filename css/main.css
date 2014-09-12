@@ -68,3 +68,38 @@ img {
     font-family: Helvetica, sans-serif;
     
     
+/*
+    
+    make sure the graphic has a margin of zero to make sure it fills the page. 
+    
+    the caption needs to have a transpaerency, use rgba to create transpaercy. 
+    
+    to get it to hover over the image. to get it overtop of the image, set it to postion absolute. this disruptS the flow. everything else moves as it if ddidn't exist. 
+    by defualt, the everything is an inline element. it will keep stuffing stuff in until it hits the edge. 
+    you can assign the postion (left, right, top, bottom) this is based on the body element, (or parent ^below^). 
+    to base it on the parent element - it will overide the body if you change the parent element to postion relayive. this tellis it to move around according ot this things. 
+    
+    making the div dsplay inline will look at all physical spaces in the code and move accroding ot that. 
+    
+    by useing float, it will removing it from the flow of the page. float left will make some coloums, and adding margins/padding will add space between it. in order ot make them distribute, add a precentage width. (full width is 100%, divide by nukber of objects) 
+    
+to add a border border-right: 
+    
+    to get rid of the last line on the div, taget the last child 
+    
+    .info last-child {
+    border: 0
+} 
+    
+    
+    
+    (thiNK OF IT LIKE MICROSOFT WORD)
+    
+    (decoration goes in css, content in html) 
+    
+    
+    to add that neat background colour, add a background colour to the div. but it won't work, cause of the float div. 
+     in order to do that, add overflow: hidden; to whereever you added the background colour. 
+    
+    
+    */
