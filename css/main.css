@@ -29,3 +29,42 @@ img {
   display: block;
   width: 100%;
 }
+
+.main {
+    /* color: blue */
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.facts {
+    /* color: red; */
+    postion: absolute;
+    margin: 0;
+    padding: 0;
+    width: 7rem;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.mrsteg {
+    width:100%;
+
+}
+
+.title2 {
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: grey;
+    
+}
+
+.facts2 {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    
+    
